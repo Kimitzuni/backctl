@@ -11,7 +11,7 @@ backlight, and I cannot use `xbacklight` to change the brightness.
 
 `xbacklight` is also Xorg specific, meaning that you need to be running Xorg at if you want to use
 it, `backctl` is not Xorg specific, and instead just modifies the value in
-`/sys/class/backlight/#/brightness` to change the backlight brightness. This has the added bonus of
+`/sys/class/backlight/*/brightness` to change the backlight brightness. This has the added bonus of
 being able to be ran within Xorg, Wayland and the tty.
 
 `backctl` also takes the Suckless philosophy of tools in that to make a modification you edit the
