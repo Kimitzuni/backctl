@@ -1,4 +1,4 @@
-CC		= clang++
+CC		= g++
 CFLAGS		= -O2 -pipe
 INCLUDE		= -I include/
 LIBS		= 
