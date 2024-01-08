@@ -57,6 +57,15 @@ brightness without needing to put your sudo password in:
 %wheel ALL=(ALL:ALL) NOPASSWD: /usr/local/bin/backctl
 ```
 
+### Arch Users
+Arch users can install `backctl` via the AUR:
+
+```
+git clone https://aur.archlinux.org/backctl-git.git
+cd backctl-git
+makepkg -si
+```
+
 ## Usage
 ```
 ___.                  __           __  .__
